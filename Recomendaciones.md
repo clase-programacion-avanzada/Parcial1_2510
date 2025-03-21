@@ -16,7 +16,8 @@ Si van a validar el tamaño de un arreglo de caracteres, recuerden que el tamañ
 
 char * arreglo = "6014327865";
 
-strlen(arreglo); // Devuelve 10, pero el tamaño del arreglo es 11, porque el último elemento del arreglo es el caracter '\0'
+strlen(arreglo); // Devuelve 10, pero el tamaño del arreglo es 11, 
+//porque el último elemento del arreglo es el caracter '\0'
 
 ```
 
