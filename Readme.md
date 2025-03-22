@@ -212,7 +212,7 @@ A partir de la información proporcionada, se le solicita implementar los siguie
 
 2. **(20 puntos) Agregar teléfono en titular**  
    Dado un titular por referencia y un arreglo de caracteres con un número de teléfono, adicionar el número al arreglo dinámico de teléfonos del titular.  
-   - [ ] **Nota:** se debe validar que, si el número tiene prefijo, el arreglo de caracteres debe ser de 14 bytes (celular) y 11 bytes en caso contrario (fijo).
+   - **Nota:** se debe validar que, si el número tiene prefijo, el arreglo de caracteres debe ser de 14 bytes (celular) y 11 bytes en caso contrario (fijo).
 
 3. **(15 puntos) Agregar tarjeta de crédito a titular**  
    Dado el titular y la tarjeta de crédito por referencia, agregar la tarjeta al titular.  
