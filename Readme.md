@@ -1,4 +1,4 @@
-# Solución parcial 1 - [ ] 2510
+# Solución parcial 1 - 2510
 
 ## I. (20 PUNTOS) CONCEPTOS  
 
@@ -143,8 +143,6 @@
         Opción (b). `ifstream` con `ios::in` abre un archivo de texto para lectura.
     </details>  
 
-
-
 10.	¿Qué hace la función write en un archivo binario?
 
 	- [ ] a. Escribe un apuntador en el archivo.
@@ -161,15 +159,18 @@
 Un banco de Colombia desea desarrollar un programa en c++ para gestionar a los clientes y sus tarjetas de crédito.  El dueño del banco le ha proporcionado la siguiente información sobre las estructuras a utilizar:  
 
 ### **Teléfono**  
+
 1) `numeroTelefono`: cadena de caracteres de tamaño dinámico (14 bytes para celular, 11 bytes para teléfono fijo).
 
-### **TarjetaCredito**  
+### **TarjetaCredito**
+
 1) `numeroTarjeta`: cadena de caracteres de 17 bytes  
 2) `fechaVencimiento`: cadena de caracteres de 6 bytes en formato (MM/AA)  
 3) `codigoSeguridad`: código de seguridad de la tarjeta (int)  
 4) `saldoDisponible`: saldo disponible en la tarjeta (double)  
 
-### **Titular**  
+### **Titular**
+
 1) `cedula`: cadena de caracteres que empieza por 'CC' (20 bytes)  
 2) `nombreApellido`: cadena de caracteres de 40 bytes  
 3) `telefonos`: arreglo dinámico de números de teléfono  
@@ -177,7 +178,8 @@ Un banco de Colombia desea desarrollar un programa en c++ para gestionar a los c
 5) `tarjetasCredito`: arreglo dinámico de la estructura `TarjetaCredito`  
 6) `cantidadTarjetas`: número de tarjetas de crédito con las que cuenta el titular (int)
 
-### **Banco**  
+### **Banco**
+
 1) `nombre`: cadena de caracteres de 40 bytes  
 2) `direccion`: cadena de caracteres de 45 bytes  
 3) `titulares`: arreglo dinámico de la estructura `Titular`  
@@ -200,6 +202,7 @@ CC32135, Maria Gómez, 6014327865
 3) Las líneas siguientes contienen las tarjetas de crédito que pertenecen al titular.  
 4) Cuando aparece una nueva cédula, indica que un nuevo titular ha comenzado.
 5) El caracter # significa que ha terminado el archivo.
+
 ---
 
 A partir de la información proporcionada, se le solicita implementar los siguientes servicios:
@@ -238,6 +241,6 @@ A partir de la información proporcionada, se le solicita implementar los siguie
 6. **(5 puntos) Guardar tarjetas en archivo binario**  
 generar un archivo binario tarjetas.dat en el que se almacene solamente la información de las tarjetas de crédito de los titulares del banco. Esta función recibe como parámetro el banco por referencia.
 
-- [ ] **Restricciones:**   
-  - [ ] Los arreglos deben ser dinámicos.
-  - [ ] **Nota:** Se supone que ya está implementado el método `agregarTitularBanco(Banco *banco, Titular *titular)` para agregar titulares al banco.  
+- **Restricciones:**
+  - Los arreglos deben ser dinámicos.
+  - **Nota:** Se supone que ya está implementado el método `agregarTitularBanco(Banco *banco, Titular *titular)` para agregar titulares al banco.  
