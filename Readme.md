@@ -187,7 +187,7 @@ Un banco de Colombia desea desarrollar un programa en c++ para gestionar a los c
 
 El banco cuenta con el siguiente archivo de texto **cuentas.txt**, en el que se encuentra la información existente del banco, de los titulares y de las tarjetas:  
 
-``` txt
+``` csv
 Banco de Bogotá, Calle 36 #7-47
 CC1234, Juan Fernandez, +573015026783, 6014327865
 4539876543211234, 05/28, 723, 1500.75
