@@ -1,4 +1,4 @@
-# Solución parcial 1 - 2510
+# Solución parcial 1 - [ ] 2510
 
 ## I. (20 PUNTOS) CONCEPTOS  
 
@@ -8,10 +8,10 @@
    int* ptr = &arr[1];  
    cout << *ptr;
    ```
-	- a. 10
-	- b. 20
-	- c. Dirección de memoria de arr[1]
-	- d. Error de compilación
+	- [ ] a. 10
+	- [ ] b. 20
+	- [ ] c. Dirección de memoria de arr[1]
+	- [ ] d. Error de compilación
 
    <details>
        <summary>Respuesta</summary>
@@ -20,8 +20,8 @@
 
 
 2.	En C++, cuando declaramos un apuntador y reservamos memoria con el operador new, la memoria se libera automáticamente cuando el programa termina.
-	- a. Verdadero
-	- b. Falso
+	- [ ] a. Verdadero
+	- [ ] b. Falso
 
     <details>
         <summary>Respuesta</summary>
@@ -35,23 +35,23 @@
     char str[] = "Hola";  
     std::cout << (str + 2);
     ```
-	- a. H
-	- b. o
-	- c. la
-	- d. a
+	- [ ] a. H
+	- [ ] b. o
+	- [ ] c. l
+	- [ ] d. a
 
     <details>
         <summary>Respuesta</summary>
-        Opción (c). `str + 2` apunta al tercer carácter, que es `"la"`.
+        Opción (c). `str + 2` apunta al tercer carácter, que es `"l"`.
     </details>  
 
 
 
 4.	Para leer datos de un archivo binario en C++, se utiliza:
-    - a. read()
-    - b. get()
-    - c. getline()
-    - d. scanf()
+    - [ ] a. read()
+    - [ ] b. get()
+    - [ ] c. getline()
+    - [ ] d. scanf()
 
     <details>
         <summary>Respuesta</summary>
@@ -61,10 +61,10 @@
 
 
 5.	¿Cuál es la diferencia entre delete y delete[] en C++?
-    - a. delete se usa para liberar memoria de variables individuales, delete[] para arreglos dinámicos.
-    - b. delete solo se usa con punteros a objetos, delete[] con punteros a estructuras.
-    - c. delete[] libera más memoria que delete.
-    - d. No hay diferencia, ambos se pueden usar indistintamente.
+    - [ ] a. delete se usa para liberar memoria de variables individuales, delete[] para arreglos dinámicos.
+    - [ ] b. delete solo se usa con punteros a objetos, delete[] con punteros a estructuras.
+    - [ ] c. delete[] libera más memoria que delete.
+    - [ ] d. No hay diferencia, ambos se pueden usar indistintamente.
 
     <details>
         <summary>Respuesta</summary>
@@ -74,10 +74,10 @@
 
 
 6.	¿Qué utilizamos preferentemente para almacenar información de estudiantes con nombres, apellidos y calificaciones?
-    - a. Un arreglo
-    - b. Una matriz
-    - c. Un struct
-    - d. Un apuntador
+    - [ ] a. Un arreglo
+    - [ ] b. Una matriz
+    - [ ] c. Un struct
+    - [ ] d. Un apuntador
 
     <details>
         <summary>Respuesta</summary>
@@ -94,23 +94,33 @@
     cout << *p2;
     ```
 
-	- a. Imprime la dirección de a.
-	- b. Utiliza p2 de forma incorrecta.
-	- c. Lanza un error de compilación.
-	- d. Imprime la dirección de p1.
+	- [ ] a. Imprime la dirección de a.
+	- [ ] b. Utiliza p2 de forma incorrecta.
+	- [ ] c. Lanza un error de compilación.
+	- [ ] d. Imprime la dirección de p1.
 
     <details>
         <summary>Respuesta</summary>
-        Opción (d). `p2` es un puntero a `p1`, por lo que `*p2` es la dirección almacenada en `p1`.
+        Opción (a). Imprime la dirección de a
+        
+        `p2` apunta a `p1`, que a su vez apunta a `a`.
+
+        | variable | valor almacenado |
+        |----------|------------------|
+        | p2       | dirección de p1  |
+        | p1       | dirección de a   |
+        | a        | 10               |
+
+        Si imprimimos '*p2', se imprime el valor almacenado por p1, que es la dirección de 'a'.
     </details>  
 
 
 
 8.	En una función que recibe un parámetro por referencia:
-    - a. La función recibe una copia del valor como parámetro.
-    - b. La función recibe la dirección de la variable que se envió como parámetro.
-    - c. La función puede modificar la dirección del apuntador.
-    - d. La función no puede acceder al dato del parámetro.
+    - [ ] a. La función recibe una copia del valor como parámetro.
+    - [ ] b. La función recibe la dirección de la variable que se envió como parámetro.
+    - [ ] c. La función puede modificar la dirección del apuntador.
+    - [ ] d. La función no puede acceder al dato del parámetro.
 
     <details>
         <summary>Respuesta</summary>
@@ -123,10 +133,10 @@
     ```cpp
     ifstream archivo("datos.txt", ios::in);
     ```
-	- a. Crear un nuevo archivo de texto para escritura.
-	- b. Abrir un archivo de texto existente para lectura.
-	- c. Abrir un archivo binario para lectura.
-	- d. Crear un nuevo archivo binario para escritura y lectura.
+	- [ ] a. Crear un nuevo archivo de texto para escritura.
+	- [ ] b. Abrir un archivo de texto existente para lectura.
+	- [ ] c. Abrir un archivo binario para lectura.
+	- [ ] d. Crear un nuevo archivo binario para escritura y lectura.
 
     <details>
         <summary>Respuesta</summary>
@@ -137,20 +147,18 @@
 
 10.	¿Qué hace la función write en un archivo binario?
 
-	- a. Escribe un apuntador en el archivo.
-	- b. Escribe una cadena de texto en el archivo.
-	- c. Escribe un número entero en el archivo.
-	- d. Escribe un bloque de memoria en el archivo.
+	- [ ] a. Escribe un apuntador en el archivo.
+	- [ ] b. Escribe una cadena de texto en el archivo.
+	- [ ] c. Escribe un número entero en el archivo.
+	- [ ] d. Escribe un bloque de memoria en el archivo.
     <details>
        <summary>Respuesta</summary>
        Opción (d). `write()` escribe un bloque de memoria en un archivo binario.
    </details>  
 
-Aquí tienes la segunda parte del examen agregada al Markdown:
-
 ## II. (80 PUNTOS) SISTEMA BANCARIO PARA GESTIÓN DE TARJETAS DE CRÉDITO  
 
-El dueño del banco le ha proporcionado la siguiente información sobre las estructuras a utilizar:  
+Un banco de Colombia desea desarrollar un programa en c++ para gestionar a los clientes y sus tarjetas de crédito.  El dueño del banco le ha proporcionado la siguiente información sobre las estructuras a utilizar:  
 
 ### **Teléfono**  
 1) `numeroTelefono`: cadena de caracteres de tamaño dinámico (14 bytes para celular, 11 bytes para teléfono fijo).
@@ -194,14 +202,14 @@ CC32135, Maria Gómez, 6014327865
 5) El caracter # significa que ha terminado el archivo.
 ---
 
-### **Servicios a Implementar**  
+A partir de la información proporcionada, se le solicita implementar los siguientes servicios:
 
 1. **(5 puntos) Definir las estructuras `Banco`, `Titular` y `Teléfono`**  
    Escribir la definición de las estructuras **Banco**, **Titular** y **Teléfono**.  
 
 2. **(20 puntos) Agregar teléfono en titular**  
    Dado un titular por referencia y un arreglo de caracteres con un número de teléfono, adicionar el número al arreglo dinámico de teléfonos del titular.  
-   - **Nota:** se debe validar que, si el número tiene prefijo, el arreglo de caracteres debe ser de 14 bytes (celular) y 11 bytes en caso contrario (fijo).
+   - [ ] **Nota:** se debe validar que, si el número tiene prefijo, el arreglo de caracteres debe ser de 14 bytes (celular) y 11 bytes en caso contrario (fijo).
 
 3. **(15 puntos) Agregar tarjeta de crédito a titular**  
    Dado el titular y la tarjeta de crédito por referencia, agregar la tarjeta al titular.  
@@ -230,6 +238,6 @@ CC32135, Maria Gómez, 6014327865
 6. **(5 puntos) Guardar tarjetas en archivo binario**  
 generar un archivo binario tarjetas.dat en el que se almacene solamente la información de las tarjetas de crédito de los titulares del banco. Esta función recibe como parámetro el banco por referencia.
 
-- **Restricciones:**   
-  - Los arreglos deben ser dinámicos.
-  - **Nota:** Se supone que ya está implementado el método `agregarTitularBanco(Banco *banco, Titular *titular)` para agregar titulares al banco.  
+- [ ] **Restricciones:**   
+  - [ ] Los arreglos deben ser dinámicos.
+  - [ ] **Nota:** Se supone que ya está implementado el método `agregarTitularBanco(Banco *banco, Titular *titular)` para agregar titulares al banco.  
