@@ -185,7 +185,7 @@ Un banco de Colombia desea desarrollar un programa en c++ para gestionar a los c
 3) `titulares`: arreglo dinámico de la estructura `Titular`  
 4) `cantidadTitulares`: cantidad de titulares registrados en el banco (int)
 
-El banco cuenta con el siguiente archivo de texto **cuentas.txt**, en el que se encuentra la información existente del banco, de los titulares y de las tarjetas:  
+El banco cuenta con el siguiente archivo de texto [**cuentas.txt**](cuentas.txt), en el que se encuentra la información existente del banco, de los titulares y de las tarjetas:  
 
 ``` csv
 Banco de Bogotá, Calle 36 #7-47
